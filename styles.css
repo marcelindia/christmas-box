@@ -75,4 +75,10 @@ box-shadow: 1px 2px 3px rgba(0,0,0,0.1);
 
 .present:hover .lid{
     top : -100px;
+    transform: rotateZ(10deg);
+    left: 10px;
+}
+
+.present:hover .promo{
+    top: -80px;
 }
