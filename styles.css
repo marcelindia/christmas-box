@@ -50,6 +50,9 @@ box-shadow: 1px 2px 3px rgba(0,0,0,0.1);
     height: 100%;
     left: 170px;
 }
+.lid span{
+    left: 172px;
+}
 
 .promo{
     color:antiquewhite;
@@ -68,4 +71,8 @@ box-shadow: 1px 2px 3px rgba(0,0,0,0.1);
 .promo h2 {
     font-size: 40px;
     margin: 0;
+}
+
+.present:hover .lid{
+    top : -100px;
 }
