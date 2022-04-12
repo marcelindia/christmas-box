@@ -29,7 +29,13 @@ margin: 0 auto;
     box-shadow: 1px 2px 3px rgba(0,0,0,0,.2);
     z-index: 1;
     padding: 0 2px;
-    background-color: rgb(230,42, 160)
+    background-color: rgb(230,42, 160);
+    top:0;
+    left:0;
+    transition: 
+    top ease-out 0.5s,
+    left ease-out 0.5s,
+    transform ease-out 0.5s;
 
 }
 
@@ -61,6 +67,7 @@ box-shadow: 1px 2px 3px rgba(0,0,0,0.1);
     position: relative;
     top: 10px;
     height: 0px;
+    transition: all ease-out 0.7s;
 }
 
 .promo p {
@@ -82,3 +89,4 @@ box-shadow: 1px 2px 3px rgba(0,0,0,0.1);
 .present:hover .promo{
     top: -80px;
 }
+
